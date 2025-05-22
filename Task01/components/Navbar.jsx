@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
-    <div className="w-64 h-screen bg-gray-800 text-white p-4 flex flex-col justify-between">
+    <div className="w-66 h-screen bg-gray-800 text-white p-4 flex flex-col justify-between">
       {/* Top Section */}
       <div>
         <h1 className="text-xl font-bold mb-6">Dashboard</h1>

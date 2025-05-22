@@ -210,7 +210,7 @@ export default function Table() {
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
         {/* Dropdown */}
         <div className="flex flex-col sm:flex-row gap-2">
-          <label className="text-sm font-medium text-gray-700">Select Certificate:</label>
+          <label className="text-sm font-bold text-black-900 mt-2">Select Certificate : </label>
           <select
             className="border px-3 py-2 rounded w-52"
             value={selectedType}
@@ -223,7 +223,7 @@ export default function Table() {
 
         {/* Search */}
         <div className="flex flex-col sm:flex-row gap-2">
-          <label className="text-sm font-medium text-gray-700">Search:</label>
+          <label className="text-sm font-bold text-black-900 mt-2">Search :</label>
           <input
             type="text"
             placeholder="Search by name"
